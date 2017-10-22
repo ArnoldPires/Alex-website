@@ -1,46 +1,62 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <meta charset="utf-8">
-    <title>Alex's beauty Salon</title>
-  </head>
-  <body>
+<head>
+  <meta charset="utf-8">
+  <title>Alex's beauty Salon</title>
+  <link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+  <div class="contain-all">
     <header>
-      <img src="logo-image"></img>
-      <nav>
-        <ul>
-          <p>About</p>
-        </ul>
-        <ul>
-          <p>Barbershop</p>
-        </ul>
-        <ul>
-          <p>Beauty Salon</p>
-        </ul>
-        <ul>
-          <p>Products</p>
-        </ul>
-        <ul>
-          <p>Contact</p>
-        </ul>
-      </nav>
+      <img class="logo" src="images/placeholder2.png"></img>
+      <div class="nav-tabs">
+        <nav>
+          <ul>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Barbershop</a></li>
+            <li><a href="#">Beauty Salon</a></li>
+            <li><a href="#">Products</a></li>
+            <li><a href="#">Contact</a></li>
+          </ul>
+        </nav>
+      </div>
     </header>
 
-    <section class="image-slide">
-      <div>
-        <img>Image 1</img>
-        <img>Image 2</img>
-        <img>Image 3</img>
+    <section class="image-carousel">
+      <div class="slider">
+        <div class="slide active image1" id="slide1">
+          <div class="slide_content">
+            <span>Welcome to Alex's Unisex Beauty Center!</span>
+          </div>
+        </div>
+        <div class="slide image2" id="slide2">
+          <div class="slide_content">
+            <span>Hair styling!</span>
+            <p>Best service at affordable prices</p>
+          </div>
+        </div>
+        <div class="slide image3" id="slide3">
+          <div class="slide_content">
+            <span>The oldest surviving, man-made site in this area is Dorchester's North Burying Ground at the corner of Columbia Road and Stoughton Street.</span>
+          </div>
+        </div>
+        <div class="slider_nav">
+          <a class="slideBtn active" data-slide-target="1" href="#slide1">•</a>
+          <a class="slideBtn" data-slide-target="2" href="#slide2">•</a>
+          <a class="slideBtn" data-slide-target="3" href="#slide3">•</a>
+        </div>
+        <a class="secondary_nav backBtn"></a>
+        <a class="secondary_nav fwdBtn"></a>
       </div>
       <h4> We are hiring barbers and stylists! Email Alex at: AlexDoSouto72@gmail.com </h4>
     </section>
 
-      <section class="about">
-        <div class="background-image-of-uphams-corner">
-          <img>Alex and wife image</img>
-          <p>Who is Alex DoSouto?</p>
-          <p>Co founder and owner of Alex's unisex Beauty Center. Alex started his own barbershop business in Roxbury in 1989, before relocating to Dorchester in March 1993. Starting off with only four chairs, he's been in business for more than 27 years. All the while serving his community with the best quality of service possible.</p>
-        </div>
+    <section class="about">
+      <div class="background-image-of-uphams-corner">
+        <img>Alex and wife image</img>
+        <p>Who is Alex DoSouto?</p>
+        <p>Co founder and owner of Alex's unisex Beauty Center. Alex started his own barbershop business in Roxbury in 1989, before relocating to Dorchester in March 1993. Starting off with only four chairs, he's been in business for more than 27 years. All the while serving his community with the best quality of service possible.</p>
+      </div>
     </section>
 
     <section class="barbershop">
@@ -63,21 +79,21 @@
       <div>
         <h2>list of products used</h2>
         <ul>Bump Pro Full Line</ul>
-          <img>Bump pro image</img>
+        <img>Bump pro image</img>
         <ul>John Paul Mitchell Full line</ul>
-          <img>John Paul Michel image</img>
+        <img>John Paul Michel image</img>
         <ul>Mizani</ul>
-          <img></img>
+        <img></img>
         <ul>Gummy</ul>
-          <img></img>
+        <img></img>
         <ul>Kera Care</ul>
-          <img></img>
+        <img></img>
         <ul>Madina</ul>
-          <img></img>
+        <img></img>
         <ul>Alcantara</ul>
-          <img></img>
+        <img></img>
         <ul>BamBu</ul>
-          <img></img>
+        <img></img>
       </div>
     </section>
 
@@ -89,11 +105,13 @@
           <ul>Number</ul>
           <ul>Email</ul>
         </div>
-      <div>
-        <p>Copyright</p>
-        <p>Links to social Media</p>
-      </div>
-    </section>
-  </footer>
-  </body>
+        <div>
+          <p>Copyright</p>
+          <p>Links to social Media</p>
+        </div>
+      </section>
+    </footer>
+  </div>
+  <script src="js/img-carousel.js"></script>
+</body>
 </html>
