@@ -22,6 +22,15 @@ body{
   width: 100%;
   border: 30px solid #76140c;
 }
+h3 {
+  font-weight: bold;
+  letter-spacing: 0px;
+  font-size: 30px;
+  text-align: center;
+  margin: 5px;
+  position: relative;
+  bottom: 75px;
+}
 /*
 Header
 */
@@ -195,11 +204,39 @@ About section
   padding: 100px 0px 100px 0px;
 }
 .uphams-corner-background-image{
-  background-image: url("../images/uphams-corner-1.jpg");
+  background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url('../images/uphams-corner-1.jpg');
   background-repeat: no-repeat;
   background-attachment: fixed;
   padding-bottom: 100px;
   background-position: 50% -50px;
   background-size: 100%;
-  padding: 30px;
+  padding: 100px;
+}
+.uphams-corner-background-image h3, p {
+  font-weight: bold;
+  letter-spacing: 0px;
+  font-size: 30px;
+  margin: 5px;
+}
+.uphams-corner-background-image h3 {
+  text-align: center;
+  position: relative;
+  bottom: 75px;
+}
+.aboutpage-text-wrap {
+  width: 60%;
+  float: right;
+  margin: 50px;
+}
+/*
+barbershop section
+*/
+.barbershop-background-image{
+  background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url('../images/uphams-corner-1.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  padding-bottom: 100px;
+  background-position: 50% -50px;
+  background-size: 100%;
+  padding: 100px;
 }
