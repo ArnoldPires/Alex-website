@@ -29,7 +29,6 @@ h3 {
   text-align: center;
   margin: 5px;
   position: relative;
-  bottom: 75px;
 }
 /*
 Header
@@ -210,7 +209,7 @@ About section
   padding-bottom: 100px;
   background-position: 50% -50px;
   background-size: 100%;
-  padding: 100px;
+  padding: 130px;
 }
 .uphams-corner-background-image h3, p {
   font-weight: bold;
@@ -238,5 +237,20 @@ barbershop section
   padding-bottom: 100px;
   background-position: 50% -50px;
   background-size: 100%;
-  padding: 100px;
+  padding: 130px;
+}
+.barbershop-pricing-wrap {
+  background: linear-gradient( rgba(0, 0, 0, 0.5), #ccc );
+  height: 300px;
+  width: 40%;
+}
+.barbershop-pricing-wrap p {
+  text-align: center;
+}
+/*
+Beauty Salon section
+*/
+.beauty-salon-background-image {
+  background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url('../images/uphams-corner-1.jpg');
+  background-repeat: no-repeat;
 }
