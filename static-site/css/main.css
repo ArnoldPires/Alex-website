@@ -29,6 +29,7 @@ h3 {
   text-align: center;
   margin: 5px;
   position: relative;
+  bottom: 60px;
 }
 /*
 Header
@@ -196,12 +197,12 @@ Hiring
   bottom: 100px;
   letter-spacing: 0;
 }
+.about, .barbershop, .beauty-salon, .products, .contact {
+  padding: 100px 0px 0px 0px;
+}
 /*
 About section
 */
-.about {
-  padding: 100px 0px 100px 0px;
-}
 .uphams-corner-background-image{
   background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url('../images/uphams-corner-1.jpg');
   background-repeat: no-repeat;
@@ -211,13 +212,11 @@ About section
   background-size: 100%;
   padding: 130px;
 }
-.uphams-corner-background-image h3, p {
+.uphams-corner-background-image h3 {
   font-weight: bold;
   letter-spacing: 0px;
   font-size: 30px;
   margin: 5px;
-}
-.uphams-corner-background-image h3 {
   text-align: center;
   position: relative;
   bottom: 75px;
@@ -225,7 +224,11 @@ About section
 .aboutpage-text-wrap {
   width: 60%;
   float: right;
-  margin: 50px;
+}
+.aboutpage-text-wrap p {
+  letter-spacing: 0px;
+  font-size: 25px;
+  margin: 5px;
 }
 /*
 barbershop section
@@ -246,6 +249,7 @@ barbershop section
 }
 .barbershop-pricing-wrap p {
   text-align: center;
+  font-size: 20px;
 }
 /*
 Beauty Salon section
@@ -253,4 +257,31 @@ Beauty Salon section
 .beauty-salon-background-image {
   background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url('../images/uphams-corner-1.jpg');
   background-repeat: no-repeat;
+  background-attachment: fixed;
+  padding-bottom: 100px;
+  background-position: 50% -50px;
+  background-size: 100%;
+  padding: 130px;
+}
+.salon-pricing-wrap {
+  background: linear-gradient( rgba(0, 0, 0, 0.5), #ccc );
+  height: 300px;
+  width: 40%;
+  float: right;
+}
+.salon-pricing-wrap p {
+  text-align: center;
+  font-size: 20px;
+}
+/*
+Products section
+*/
+.products-background-image {
+  background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url('../images/uphams-corner-1.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  padding-bottom: 100px;
+  background-position: 50% -50px;
+  background-size: 100%;
+  padding: 130px;
 }
