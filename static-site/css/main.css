@@ -21,6 +21,7 @@ body{
   height: 100%;
   width: 100%;
   border: 30px solid #76140c;
+  float: left;
 }
 h3 {
   font-weight: bold;
@@ -199,6 +200,7 @@ Hiring
 }
 .about, .barbershop, .beauty-salon, .products, .contact {
   padding: 100px 0px 0px 0px;
+  float: left;
 }
 /*
 About section
@@ -267,7 +269,6 @@ Beauty Salon section
   background: linear-gradient( rgba(0, 0, 0, 0.5), #ccc );
   height: 300px;
   width: 40%;
-  float: right;
 }
 .salon-pricing-wrap p {
   text-align: center;
@@ -284,4 +285,25 @@ Products section
   background-position: 50% -50px;
   background-size: 100%;
   padding: 130px;
+}
+
+.products a {
+text-decoration: none;
+}
+.products ul {
+  list-style: none;
+}
+.products li {
+  width: 20%;
+  height: 190px;
+  border: 5px solid black;
+  float: left;
+  margin: 20px;
+}
+ .products p {
+   float: left;
+ }
+.products li a img {
+  height: 160px;
+  width: 100%;
 }
