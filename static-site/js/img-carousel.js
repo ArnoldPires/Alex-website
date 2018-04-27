@@ -30,7 +30,7 @@ function showSlide(slideIndex) {
 
 var handleClick = function(evt) {
   var slideNumber = evt.target.getAttribute("data-slide-target");
-  var slideIndex = slideNumber - 1;
+  var slideIndex = slideNumber - 5;
   //if this is the first click stop the auto slide
   if (intervalId) {
     window.clearInterval(intervalId);
