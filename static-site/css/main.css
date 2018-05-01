@@ -247,8 +247,8 @@ Services section
 .barbershop-background-image-1, .salon-background-image-1, .products-background-image-1 {
   display: inline-block;
   vertical-align: middle;
-  max-width: 100%;
-  height: auto;
+  width: 100%;
+  height: 100%;
 }
 .barbershop-background-image-1 {
   background-image: url(http://fr.web.img4.acsta.net/medias/nmedia/18/35/09/40/affiche.jpg);
@@ -257,7 +257,7 @@ Services section
   background-image: url(https://s3.amazonaws.com/skiResorts_S3/www.7springs.com/categories/298.jpg);
 }
 .products-background-image-1 {
-  background-image: url(https://media1.s-nbcnews.com/j/newscms/2017_45/1295400/brow-product-roundup-today-tease-1-171110_29d0f3a2bc35945fda0ff1fe40925aa8.focal-760x380.jpg);
+  background-image: url(http://jacksbarbershop.net/wp-content/uploads/nivo/products.jpg);
 }
 .border {
   border: solid 1px rgba(255, 255, 255, 0.2);
