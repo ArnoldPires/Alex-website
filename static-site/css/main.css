@@ -287,21 +287,30 @@ Services section
   text-align: center;
 }
 /*
-barbershop section
+barbershop, salon, and products structure
 */
-.barbershop-background-image{
-  background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url('../images/uphams-corner-1.jpg');
+.barbershop-background-image, .beauty-salon-background-image, .products-background-image {
   background-repeat: no-repeat;
   background-attachment: fixed;
   padding-bottom: 100px;
   background-position: 50% -50px;
   background-size: 100%;
   padding: 130px;
+  width: 100%;
+  margin-bottom: 100px;
+}
+/*
+barbershop section
+*/
+.barbershop-background-image{
+  background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url('http://thefader-res.cloudinary.com/private_images/w_1440,c_limit,f_auto,q_auto:best/40380002_WEB_gmcgws/levels-barbershop-new-york-ny.jpg');
+  float: left;
 }
 .barbershop-pricing-wrap {
   background: linear-gradient( rgba(0, 0, 0, 0.5), #ccc );
   height: 300px;
   width: 40%;
+  float: left;
 }
 .barbershop-pricing-wrap p {
   text-align: center;
@@ -311,18 +320,14 @@ barbershop section
 Beauty Salon section
 */
 .beauty-salon-background-image {
-  background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url('../images/uphams-corner-1.jpg');
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-  padding-bottom: 100px;
-  background-position: 50% -50px;
-  background-size: 100%;
-  padding: 130px;
+  background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url('https://i.ytimg.com/vi/TBqVazyFlwY/maxresdefault.jpg');
+  float: right;
 }
 .salon-pricing-wrap {
   background: linear-gradient( rgba(0, 0, 0, 0.5), #ccc );
   height: 300px;
   width: 40%;
+  float: right;
 }
 .salon-pricing-wrap p {
   text-align: center;
@@ -332,13 +337,8 @@ Beauty Salon section
 Products section
 */
 .products-background-image {
-  background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url('../images/uphams-corner-1.jpg');
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-  padding-bottom: 100px;
-  background-position: 50% -50px;
-  background-size: 100%;
-  padding: 130px;
+  background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url('https://1.bp.blogspot.com/-XwVJojI-5Bs/UQWwxq_AedI/AAAAAAAAAWg/KUnwNi6VOe0/s1600/Hair+Products.jpg');
+  float: left;
 }
 
 .products a {
