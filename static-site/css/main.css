@@ -289,7 +289,7 @@ Services section
 /*
 barbershop, salon, and products structure
 */
-.barbershop-background-image, .beauty-salon-background-image, .products-background-image {
+.barbershop-background-image, .beauty-salon-background-image, .products-background-image, .contact-background-image {
   background-repeat: no-repeat;
   background-attachment: fixed;
   padding-bottom: 100px;
@@ -360,4 +360,10 @@ text-decoration: none;
 .products li a img {
   height: 160px;
   width: 100%;
+}
+/*
+Contact section
+*/
+.contact-background-image {
+background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url('../images/google-map.png');
 }
