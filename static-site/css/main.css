@@ -32,6 +32,10 @@ h2 {
   position: relative;
   bottom: 60px;
 }
+.Our-services, .barbershop, .beauty-salon, .products {
+  float: left;
+  width: 100%;
+}
 /*
 Header
 */
@@ -198,8 +202,7 @@ Hiring
   bottom: 100px;
   letter-spacing: 0;
 }
-.barbershop, .beauty-salon, .products, .contact {
-  padding: 100px 0px 0px 0px;
+.barbershop, .beauty-salon, .products, {
   margin-top: 100px;
 }
 /*
@@ -233,6 +236,8 @@ Services section
   background-position: 50% -50px;
   background-size: 100%;
   padding: 130px;
+  float: left;
+  width: 100%;
 }
 .services-title::after {
   border-bottom: 2px solid #fff;
@@ -247,17 +252,32 @@ Services section
 .barbershop-background-image-1, .salon-background-image-1, .products-background-image-1 {
   display: inline-block;
   vertical-align: middle;
+  background-image: url(http://fr.web.img4.acsta.net/medias/nmedia/18/35/09/40/affiche.jpg);
+  background-repeat: no-repeat;
+  background-attachment: local;
+  padding-bottom: 100px;
+  background-position: 50% 0px;
+  background-size: cover;
   width: 100%;
   height: 100%;
 }
 .barbershop-background-image-1 {
   background-image: url(http://fr.web.img4.acsta.net/medias/nmedia/18/35/09/40/affiche.jpg);
+  background-repeat: no-repeat;
+  background-attachment: local;
+  padding-bottom: 100px;
+  background-position: 50% -161px;
+  background-size: cover;
 }
 .salon-background-image-1 {
   background-image: url(https://s3.amazonaws.com/skiResorts_S3/www.7springs.com/categories/298.jpg);
 }
 .products-background-image-1 {
   background-image: url(http://jacksbarbershop.net/wp-content/uploads/nivo/products.jpg);
+}
+.border-container {
+  float: left;
+  width: 100%;
 }
 .border {
   border: solid 1px rgba(255, 255, 255, 0.2);
@@ -266,6 +286,7 @@ Services section
   margin-left: 20px;
   margin-right: 20px;
   height: 250px;
+  padding: 10px;
   z-index: 1;
 }
 .text-border {
@@ -276,6 +297,7 @@ Services section
   z-index: 3;
   padding: 5px;
   margin: 10px;
+  float: left;
   width: 40%;
   background-color: rgba(0, 0, 0, 1.5);
 }
@@ -298,6 +320,7 @@ barbershop, salon, and products structure
   padding: 130px;
   width: 100%;
   margin-bottom: 100px;
+  float: left;
 }
 /*
 barbershop section
