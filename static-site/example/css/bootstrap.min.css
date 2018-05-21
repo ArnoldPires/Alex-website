@@ -50,10 +50,8 @@ body {
 header
 */
 header {
-  height: 160px;
-  padding: 22px 0px 22px 0px;
-  position: relative;
-  float: left;
+  padding-top: 30px;
+  position: absolute;
   width: 100%;
   z-index: 4;
 }
@@ -2563,8 +2561,8 @@ a.btn.disabled,fieldset:disabled a.btn {
 
 .btn-primary {
     color: #fff;
-    background-color: #007bff;
-    border-color: #007bff
+    background-color: #76140c;
+    border-color: #76140c;
 }
 
 .btn-primary:hover {
@@ -3824,10 +3822,6 @@ tbody.collapse.show {
 
 .nav-link.disabled {
     color: #6c757d
-}
-
-.nav-tabs {
-    border-bottom: 1px solid #dee2e6
 }
 
 .nav-tabs .nav-item {
@@ -5849,7 +5843,6 @@ button.close {
     -ms-flex-align: center;
     align-items: center;
     width: 100%;
-    opacity: 0.3;
     transition: opacity 2.0s ease-in-out;
     transition: -webkit-transform .7s ease;
     transition: transform .7s ease;
@@ -6216,10 +6209,6 @@ a.bg-dark:focus,a.bg-dark:hover,button.bg-dark:focus,button.bg-dark:hover {
 .rounded-left {
     border-top-left-radius: .25rem!important;
     border-bottom-left-radius: .25rem!important
-}
-
-.rounded-circle {
-    border-radius: 50%!important
 }
 
 .rounded-0 {
