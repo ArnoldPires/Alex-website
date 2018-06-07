@@ -3,6 +3,7 @@
 /* Padding below the footer and lighter body text */
 
 body {
+  padding-bottom: 3rem;
   color: #5a5a5a;
 }
 
@@ -22,7 +23,7 @@ body {
 
 /* Declare heights because of positioning of img element */
 .carousel-item {
-  height: 45rem;
+  height: 32rem;
   background-color: #777;
 }
 .carousel-item > img {
@@ -30,7 +31,7 @@ body {
   top: 0;
   left: 0;
   min-width: 100%;
-  height: 45rem;
+  height: 32rem;
 }
 
 
@@ -65,6 +66,31 @@ body {
   letter-spacing: -.05rem;
 }
 
+.products-background-image {
+  background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url('https://1.bp.blogspot.com/-XwVJojI-5Bs/UQWwxq_AedI/AAAAAAAAAWg/KUnwNi6VOe0/s1600/Hair+Products.jpg');
+  float: left;
+}
+
+.products a {
+text-decoration: none;
+}
+.products ul {
+  list-style: none;
+}
+.products li {
+  width: 20%;
+  height: 190px;
+  border: 5px solid black;
+  float: left;
+  margin: 20px;
+}
+ .products p {
+   float: left;
+ }
+.products li a img {
+  height: 160px;
+  width: 100%;
+}
 
 /* RESPONSIVE CSS
 -------------------------------------------------- */
