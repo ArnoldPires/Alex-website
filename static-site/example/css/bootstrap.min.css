@@ -4471,6 +4471,38 @@ tbody.collapse.show {
     border-top: 0
 }
 
+/*
+Contact section
+*/
+.contact-background-image {
+background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url('../images/google-map.png');
+}
+/*
+Contact section
+*/
+/*
+Appointment number
+*/
+.appointment-number-wrap {
+position: relative;
+bottom: 80px;
+float: left;
+width: 100%;
+}
+.appointment-number {
+  background-color: #76140c;
+  text-align: center;
+  padding: 20px;
+  margin-left: 30%;
+  margin-right: 30%;
+}
+.appointment-number span {
+  letter-spacing: 0;
+  font-size: 20px;
+}
+/*
+Appointment number
+*/
 .card-footer {
     padding: .75rem 1.25rem;
     background-color: rgba(0,0,0,.03);
