@@ -80,7 +80,7 @@ text-decoration: none;
 .products li {
   width: 20%;
   height: 190px;
-  border: 5px solid black;
+  border: 5px solid #76140c;
   float: left;
   margin: 20px;
 }
