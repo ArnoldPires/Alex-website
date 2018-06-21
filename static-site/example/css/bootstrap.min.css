@@ -4479,6 +4479,9 @@ background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url('../i
 iframe {
   margin: 20px;
 }
+.location-info-wrap {
+
+}
 /*
 Contact section
 */
