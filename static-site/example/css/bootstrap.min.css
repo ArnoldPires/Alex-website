@@ -465,7 +465,10 @@ hr {
 
 .img-fluid {
     max-width: 100%;
-    height: auto
+    height: auto;
+    border: solid 1px #76140c;
+    position: relative;
+    padding: 10px;
 }
 
 .img-thumbnail {
