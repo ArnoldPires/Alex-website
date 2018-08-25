@@ -65,14 +65,10 @@ body {
   letter-spacing: -.05rem;
 }
 
-.products-background-image {
-  background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url('images/3.jpg');
-  float: left;
-}
-
 .products a {
 text-decoration: none;
 }
+
 .products ul {
   list-style: none;
 }
