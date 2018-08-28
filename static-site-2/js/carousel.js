@@ -1,0 +1,51 @@
+var slides = document.querySelectorAll(".slide");
+
+var activeSlide = 0;
+function advanceSlides(count) {
+  if (!count) {
+    count = 1;
+  }
+  activeSlide = activeSlide + count;
+  if (activeSlide == slides.length) {
+    activeSlide = 0;
+  }
+  if (activeSlide < 0) {
+    activeSlide = slides.length - 1;
+  }
+  showSlide(activeSlide);
+}
+
+function showSlide(slideIndex) {
+  for (var i = 0; i < slides.length; i++) {
+    slides[i].classList.remove("active");
+  }
+  slides[slideIndex].classList.add("active");
+}
+
+var handleClick = function(evt) {
+  var slideNumber = evt.target.getAttribute("data-slide-target");
+  var slideIndex = slideNumber - 5;
+  //if this is the first click stop the auto slide
+  if (intervalId) {
+    window.clearInterval(intervalId);
+  }
+  showSlide(slideIndex);
+  return true;
+};
+
+var fwdClick = function(evt) {
+  if (intervalId) {
+    window.clearInterval(intervalId);
+  }
+  advanceSlides();
+};
+
+var backClick = function(evt) {
+  if (intervalId) {
+    window.clearInterval(intervalId);
+  }
+  advanceSlides(-1);
+};
+
+//start slider
+var intervalId = window.setInterval(advanceSlides, 6000);
