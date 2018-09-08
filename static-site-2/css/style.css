@@ -165,4 +165,61 @@ header {
 
 /* Carousel-end */
 
+/* Appointment-Number */
+
+.appointment-number-wrap, .hiring-wrap {
+  background-color: #76140c;
+  margin-left: 15%;
+  margin-right: 15%;
+}
+
+.appointment-number, .hiring {
+  text-align: center;
+  padding: 10px;
+}
+
+.hiring span {
+  font-weight: bold;
+  font-size: 20px;
+  letter-spacing: 0;
+}
+
+.appointment-number span {
+  font-weight: bold;
+  font-size: 20px;
+  letter-spacing: 0;
+}
+
+/* Appointment-Number-end */
+
+/*Services section */
+
+.services-wrap {
+  padding-top: 50px;
+  padding-bottom: 50px;
+  margin-left: 15%;
+  margin-right: 15%;
+  -webkit-box-flex: 0;
+-ms-flex: 0 0 33.333333%;
+flex: 0 0 33.333333%;
+max-width: 33.333333%;
+}
+
+.services {
+  color: black;
+  text-align: center;
+}
+
+.service-borders {
+  border: solid 7px #76140c ;
+  width: 30%;
+  margin-left: 20px;
+  margin-right: 20px;
+  height: 250px;
+  padding: 10px;
+  z-index: 1;
+}
+
+/*Services section end */
+
 /*Container-end */
