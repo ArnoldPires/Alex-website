@@ -18,7 +18,6 @@ body {
     font-family: 'Merienda' cursive, -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
     font-size: 1rem;
     font-weight: 400;
-    float: left;
     line-height: 1.5;
     color: #FFFFFF;
     text-align: left;
@@ -36,12 +35,10 @@ header {
   position: relative;
   padding: 25px;
   width: 100%;
-  float: left;
   z-index: 10;
 }
 
 .logo-wrapper {
-  float: left;
   padding: 15px;
 }
 
@@ -192,32 +189,30 @@ header {
 
 /* Appointment-Number-end */
 
-/*Services section */
-
-.services-wrap {
-  padding-top: 50px;
-  padding-bottom: 50px;
+.wrapper {
   margin-left: 15%;
   margin-right: 15%;
-  -webkit-box-flex: 0;
--ms-flex: 0 0 33.333333%;
-flex: 0 0 33.333333%;
-max-width: 33.333333%;
+  margin-bottom: 30px;
 }
 
-.services {
+/*Services section */
+
+.Services-section {
+  width: 100%;
+}
+
+.services h2 {
   color: black;
   text-align: center;
 }
 
 .service-borders {
-  border: solid 7px #76140c ;
-  width: 30%;
-  margin-left: 20px;
-  margin-right: 20px;
+  border: solid 4px #76140c ;
+  width: 31.33%;
+  margin-left: 10px;
+  margin-right: 10px;
   height: 250px;
   padding: 10px;
-  z-index: 1;
 }
 
 /*Services section end */
