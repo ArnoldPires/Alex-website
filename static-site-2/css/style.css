@@ -201,9 +201,13 @@ header {
   width: 100%;
 }
 
-.services h2 {
+.Services-section h2 {
   color: black;
   text-align: center;
+}
+
+.services {
+  display: flex;
 }
 
 .service-borders {
