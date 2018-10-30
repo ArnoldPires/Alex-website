@@ -26,6 +26,7 @@ body {
     width: 100%;
     border: 30px solid #76140c;
     -webkit-font-smoothing: antialiased;
+    display: inline-table;
 }
 
 /* Header */
@@ -111,12 +112,30 @@ header {
 }
 
 .slide_content {
-  position:absolute;
-  left:15%;
-  top:75%;
-  padding:20px;
-  background-color: rgba(0,0,0,.4);
-  border-radius:3px;
+
+}
+
+.text-left {
+  text-align: left!important;
+}
+
+.text-center {
+  text-align: center!important;
+}
+
+.text-right {
+  text-align: right!important;
+}
+
+.carousel-caption {
+    bottom: 3rem;
+    position: absolute;
+    right: 15%;
+    left: 15%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    color: #fff;
+    z-index: 10;
 }
 
 .slide_content > * {
@@ -124,7 +143,7 @@ header {
   opacity:1;
 }
 
-.slide_content span {
+.slide_content h2 {
   letter-spacing: 0;
   font-weight: bold;
 }
@@ -151,15 +170,15 @@ header {
 }
 
 .image1 {
-  background-image: url("https://igniter-2246.kxcdn.com/preview/salon/files/2015/09/sl01a.jpg");
+  background-image: url("https://ichef.bbci.co.uk/news/660/cpsprodpb/154EC/production/_102967278_1f1ecc7c-a677-4e9f-838a-317186227aad.jpg");
 }
 
 .image2 {
-  background-image: url("https://igniter-2246.kxcdn.com/preview/salon/files/2015/09/sl02.jpg");
+  background-image: url("http://static1.uk.businessinsider.com/image/5748a50cdd0895c4148b487d/scientifically-proven-features-men-find-attractive-in-women.jpg");
 }
 
 .image3 {
-  background-image: url("https://igniter-2246.kxcdn.com/preview/salon/files/2015/09/sl03.jpg");
+  background-image: url("http://static1.uk.businessinsider.com/image/544eadbcdd089532208b45a6-1190-625/scientists-have-figured-out-what-makes-women-attractive.jpg");
 }
 
 /* Carousel-end */
@@ -201,6 +220,8 @@ header {
 
 .Services-section {
   width: 100%;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .Services-section h2 {
@@ -214,11 +235,17 @@ header {
 
 .service-borders {
   border: solid 4px #76140c ;
-  width: 31.33%;
+  width: 100%;
   margin-left: 10px;
   margin-right: 10px;
   height: 250px;
   padding: 10px;
+  -webkit-box-flex: 0;
+  flex: 0 0 33.333333%;
+  max-width: 33.333333%;
+  position: relative;
+  padding-right: 15px;
+  padding-left: 15px;
 }
 
 /*Services section end */
