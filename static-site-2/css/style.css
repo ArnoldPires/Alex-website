@@ -27,6 +27,7 @@ body {
     border: 30px solid #76140c;
     -webkit-font-smoothing: antialiased;
     display: inline-table;
+    object-fit: contain;
 }
 
 /* Header */
@@ -222,6 +223,7 @@ header {
   width: 100%;
   margin-left: auto;
   margin-right: auto;
+  display: block;
 }
 
 .Services-section h2 {
@@ -246,6 +248,16 @@ header {
   position: relative;
   padding-right: 15px;
   padding-left: 15px;
+}
+
+.services img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+
+.services p {
+  color: #151515;
 }
 
 /*Services section end */
