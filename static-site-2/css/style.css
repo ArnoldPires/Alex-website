@@ -27,6 +27,7 @@ body {
     border: 30px solid #76140c;
     -webkit-font-smoothing: antialiased;
     display: inline-table;
+    object-fit: contain;
 }
 
 /* Header */
@@ -222,6 +223,7 @@ header {
   width: 100%;
   margin-left: auto;
   margin-right: auto;
+  display: block;
 }
 
 .Services-section h2 {
@@ -229,23 +231,33 @@ header {
   text-align: center;
 }
 
+.services p {
+  color: #151515;
+}
+
+.services p, h2 {
+  margin: 10px;
+}
+
 .services {
   display: flex;
 }
 
+.services-wrapper {
+  width: 340px;
+}
+
 .service-borders {
   border: solid 4px #76140c ;
-  width: 100%;
   margin-left: 10px;
   margin-right: 10px;
-  height: 250px;
   padding: 10px;
-  -webkit-box-flex: 0;
-  flex: 0 0 33.333333%;
-  max-width: 33.333333%;
-  position: relative;
-  padding-right: 15px;
-  padding-left: 15px;
+}
+
+.services img {
+  height: 250px;
+  width: 100%;
+  object-fit: cover;
 }
 
 /*Services section end */
