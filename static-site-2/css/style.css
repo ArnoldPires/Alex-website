@@ -188,13 +188,12 @@ header {
 
 .appointment-number-wrap, .hiring-wrap {
   background-color: #76140c;
-  margin-left: 15%;
-  margin-right: 15%;
+  padding: 10px
 }
 
-.appointment-number-wrap, .hiring-wrap {
-  padding: 10px;
+.appointment-number-wrap {
   border-radius: .3rem;
+  width: fit-content;
 }
 
 .hiring-wrap {
