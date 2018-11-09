@@ -191,9 +191,13 @@ header {
   margin-right: 15%;
 }
 
-.appointment-number, .hiring {
-  text-align: center;
+.appointment-number-wrap, .hiring-wrap {
   padding: 10px;
+  border-radius: .3rem;
+}
+
+.hiring-wrap {
+  text-align: center;
 }
 
 .hiring span {
