@@ -244,6 +244,9 @@ header {
 
 .services {
   display: flex;
+  padding-left: 10%;
+  padding-right: 10%;
+  width: 100%;
 }
 
 .services-wrapper {
