@@ -236,6 +236,7 @@ header {
 
 .services p {
   color: #151515;
+  text-align: center;
 }
 
 .services p, h2 {
