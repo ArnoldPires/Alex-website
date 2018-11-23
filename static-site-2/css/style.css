@@ -245,8 +245,6 @@ header {
 
 .services {
   display: flex;
-  padding-left: 10%;
-  padding-right: 10%;
   width: 100%;
 }
 
@@ -268,5 +266,17 @@ header {
 }
 
 /*Services section end */
+
+/*divider*/
+
+.divider {
+  box-sizing: content-box;
+  height: 0;
+  overflow: visible;
+  margin-top: 1rem;
+    margin-bottom: 1rem;
+    border: 0;
+    border-top: 1px solid rgba(0,0,0,.1);
+}
 
 /*Container-end */
